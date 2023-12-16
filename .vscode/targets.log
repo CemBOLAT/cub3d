@@ -1,0 +1,925 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Dec 16 14:12:26 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 94)
+ 
+BONUS_OBJS := ./bonus_obj/calc_utils.o ./bonus_obj/checks.o ./bonus_obj/doors_utils.o ./bonus_obj/ft_assign_texture.o ./bonus_obj/ft_draw_wall.o ./bonus_obj/ft_exit_and_free.o ./bonus_obj/ft_fill_textures.o ./bonus_obj/ft_import_map.o ./bonus_obj/ft_init_images.o ./bonus_obj/ft_mini_map_draw_comps.o ./bonus_obj/ft_mini_map.o ./bonus_obj/ft_move_player.o ./bonus_obj/ft_parse_map_closed.o ./bonus_obj/ft_parse_map.o ./bonus_obj/ft_render.o ./bonus_obj/ft_sprites.o ./bonus_obj/ft_start_game.o ./bonus_obj/ft_update.o ./bonus_obj/ft_wall_dimension.o ./bonus_obj/gnl_utils.o ./bonus_obj/gnl.o ./bonus_obj/list_utils.o ./bonus_obj/list_utilsv2.o ./bonus_obj/main.o ./bonus_obj/matrix.o
+# makefile
+CURDIR := /Users/cembolat/Desktop/dadda3d/last_dance_vance
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 20)
+RM := rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","osLocale":"tr-tr","availableLanguages":{"*":"tr"},"_languagePackId":"d633266406872278896a9fd24ec1ae05.tr","_translationsConfigFile":"/Users/cembolat/Library/Application Support/Code/clp/d633266406872278896a9fd24ec1ae05.tr/tcf.json","_cacheRoot":"/Users/cembolat/Library/Application Support/Code/clp/d633266406872278896a9fd24ec1ae05.tr","_resolvedLanguagePackCoreLocation":"/Users/cembolat/Library/Application Support/Code/clp/d633266406872278896a9fd24ec1ae05.tr/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2","_corruptedFile":"/Users/cembolat/Library/Application Support/Code/clp/d633266406872278896a9fd24ec1ae05.tr/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 18)
+CFLAGS := -Wall -Wextra -Werror -g -ggdb
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 122)
+MINILIBX_DIR := minilibx
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/opt/openjdk@20/bin:/usr/local/opt/openjdk@16/bin:/usr/local/opt/openjdk@16/bin:/usr/local/opt/openjdk@16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+# makefile (from `Makefile', line 22)
+SRCS_DIR := srcs/
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 121)
+LIBFT_DIR := libft
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8P8dH8bjb2/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 67)
+BONUS_SRCS := ./bonus/calc_utils.c ./bonus/checks.c ./bonus/doors_utils.c ./bonus/ft_assign_texture.c ./bonus/ft_draw_wall.c ./bonus/ft_exit_and_free.c ./bonus/ft_fill_textures.c ./bonus/ft_import_map.c ./bonus/ft_init_images.c ./bonus/ft_mini_map_draw_comps.c ./bonus/ft_mini_map.c ./bonus/ft_move_player.c ./bonus/ft_parse_map_closed.c ./bonus/ft_parse_map.c ./bonus/ft_render.c ./bonus/ft_sprites.c ./bonus/ft_start_game.c ./bonus/ft_update.c ./bonus/ft_wall_dimension.c ./bonus/gnl_utils.c ./bonus/gnl.c ./bonus/list_utils.c ./bonus/list_utilsv2.c ./bonus/main.c ./bonus/matrix.c
+# makefile (from `Makefile', line 45)
+OBJS := ./objs/calc_utils.o ./objs/checks.o ./objs/ft_assign_texture.o ./objs/ft_draw_wall.o ./objs/ft_exit_and_free.o ./objs/ft_fill_textures.o ./objs/ft_import_map.o ./objs/ft_init_images.o ./objs/ft_move_player.o ./objs/ft_parse_map_closed.o ./objs/ft_parse_map.o ./objs/ft_render.o ./objs/ft_start_game.o ./objs/ft_update.o ./objs/ft_wall_dimension.o ./objs/gnl_utils.o ./objs/gnl.o ./objs/list_utils.o ./objs/main.o ./objs/matrix.o
+# environment
+PWD = /Users/cembolat/Desktop/dadda3d/last_dance_vance
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# makefile (from `Makefile', line 14)
+B_NAME := cub3d_bonus
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/cembolat
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/cembolat/Library/Application Support/Code/CachedData/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+# environment
+LOGNAME = cembolat
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 23)
+SRCS := ./srcs/calc_utils.c ./srcs/checks.c ./srcs/ft_assign_texture.c ./srcs/ft_draw_wall.c ./srcs/ft_exit_and_free.c ./srcs/ft_fill_textures.c ./srcs/ft_import_map.c ./srcs/ft_init_images.c ./srcs/ft_move_player.c ./srcs/ft_parse_map_closed.c ./srcs/ft_parse_map.c ./srcs/ft_render.c ./srcs/ft_start_game.c ./srcs/ft_update.c ./srcs/ft_wall_dimension.c ./srcs/gnl_utils.c ./srcs/gnl.c ./srcs/list_utils.c ./srcs/main.c ./srcs/matrix.c
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 16)
+CC := gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = cembolat
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 13)
+NAME := cub3d
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/fl/4cbxkn7160543t0kxp8dwt5r0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/cembolat/Library/Application Support/Code/1.85-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.19179786.19179792
+# makefile (from `Makefile', line 44)
+OBJS_DIR := objs/
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x23:0x18
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 93)
+BONUS_OBJS_DIR := bonus_obj/
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 66)
+BONUS_DIR := bonus/
+# environment
+LANG = C
+# environment
+VSCODE_PID = 13316
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=11/130=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 13064823): 16 files, no impossibilities.
+# bonus (device 16777233, inode 13064827): No files, no impossibilities so far.
+# srcs (device 16777233, inode 13064839): 22 files, no impossibilities so far.
+
+# 38 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+objs/%.o: srcs/%.c
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+bonus_obj/%.o: bonus/%.c
+#  commands to execute (from `Makefile', line 148):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+srcs/matrix.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-17 15:18:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+bonus_obj/ft_move_player.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/ft_import_map.o: srcs/ft_import_map.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_import_map'
+#  Last modified 2023-09-27 09:55:21
+ 
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_update.o: srcs/ft_update.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_update'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_render.o: srcs/ft_render.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_render'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/main.o: srcs/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+srcs/gnl_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 15:13:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/ft_init_images.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 14:16:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: cub3d
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/13=0%
+
+.PHONY: all clean fclean re bonus
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/list_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/ft_parse_map_closed.o: srcs/ft_parse_map_closed.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_parse_map_closed'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/ft_mini_map_draw_comps.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cub3d: objs/ objs/calc_utils.o objs/checks.o objs/ft_assign_texture.o objs/ft_draw_wall.o objs/ft_exit_and_free.o objs/ft_fill_textures.o objs/ft_import_map.o objs/ft_init_images.o objs/ft_move_player.o objs/ft_parse_map_closed.o objs/ft_parse_map.o objs/ft_render.o objs/ft_start_game.o objs/ft_update.o objs/ft_wall_dimension.o objs/gnl_utils.o objs/gnl.o objs/list_utils.o objs/main.o objs/matrix.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cub3d
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := objs/ objs/calc_utils.o objs/checks.o objs/ft_assign_texture.o objs/ft_draw_wall.o objs/ft_exit_and_free.o objs/ft_fill_textures.o objs/ft_import_map.o objs/ft_init_images.o objs/ft_move_player.o objs/ft_parse_map_closed.o objs/ft_parse_map.o objs/ft_render.o objs/ft_start_game.o objs/ft_update.o objs/ft_wall_dimension.o objs/gnl_utils.o objs/gnl.o objs/list_utils.o objs/main.o objs/matrix.o
+# automatic
+# | := 
+# automatic
+# < := objs/
+# automatic
+# ^ := objs/ objs/calc_utils.o objs/checks.o objs/ft_assign_texture.o objs/ft_draw_wall.o objs/ft_exit_and_free.o objs/ft_fill_textures.o objs/ft_import_map.o objs/ft_init_images.o objs/ft_move_player.o objs/ft_parse_map_closed.o objs/ft_parse_map.o objs/ft_render.o objs/ft_start_game.o objs/ft_update.o objs/ft_wall_dimension.o objs/gnl_utils.o objs/gnl.o objs/list_utils.o objs/main.o objs/matrix.o
+# automatic
+# ? := objs/ objs/calc_utils.o objs/checks.o objs/ft_assign_texture.o objs/ft_draw_wall.o objs/ft_exit_and_free.o objs/ft_fill_textures.o objs/ft_import_map.o objs/ft_init_images.o objs/ft_move_player.o objs/ft_parse_map_closed.o objs/ft_parse_map.o objs/ft_render.o objs/ft_start_game.o objs/ft_update.o objs/ft_wall_dimension.o objs/gnl_utils.o objs/gnl.o objs/list_utils.o objs/main.o objs/matrix.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=8/21=38%
+#  commands to execute (from `Makefile', line 128):
+	@make -C $(LIBFT_DIR)
+	@make -C $(MINILIBX_DIR)
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -L$(LIBFT_DIR) -lft -L$(MINILIBX_DIR) -lmlx -framework OpenGL -framework AppKit $(OBJS) -o $(NAME)
+	@rm -rf $(B_NAME)
+	@echo "Compiled cub3d"
+	
+
+# Not a target:
+srcs/ft_import_map.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:20:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/ft_draw_wall.o: srcs/ft_draw_wall.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_draw_wall'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/ft_mini_map.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_exit_and_free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/gnl.o: srcs/gnl.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `gnl'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_assign_texture.o: srcs/ft_assign_texture.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_assign_texture'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_wall_dimension.o: srcs/ft_wall_dimension.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_wall_dimension'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_update.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 14:57:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/ft_render.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 19:56:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:18:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 15:15:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/:
+#  Implicit rule search has not been done.
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 145):
+	@mkdir -p $(OBJS_DIR)
+	
+
+objs/ft_start_game.o: srcs/ft_start_game.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_start_game'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/matrix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/checks.o: srcs/checks.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `checks'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+srcs/ft_parse_map_closed.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:11:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/ft_parse_map.o: srcs/ft_parse_map.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_parse_map'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/gnl_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_init_images.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/calc_utils.o: srcs/calc_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `calc_utils'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+srcs/ft_draw_wall.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:09:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/gnl.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 15:21:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+bonus_obj/ft_fill_textures.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_assign_texture.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:07:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/ft_wall_dimension.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-21 11:44:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bonus: cub3d_bonus
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 160):
+	@make fclean -C $(LIBFT_DIR)
+	@$(RM) $(NAME)
+	@$(RM) $(B_NAME)
+	
+
+objs/ft_move_player.o: srcs/ft_move_player.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_move_player'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_fill_textures.o: srcs/ft_fill_textures.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_fill_textures'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+srcs/ft_start_game.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 21:36:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+bonus_obj/ft_import_map.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/checks.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-19 14:12:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/ft_parse_map.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-21 12:38:54
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+bonus_obj/doors_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_render.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/calc_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:20:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/list_utils.o: srcs/list_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `list_utils'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 154):
+	@make clean -C $(LIBFT_DIR)
+	@make clean -C $(MINILIBX_DIR)
+	@$(RM) -r $(OBJS_DIR)
+	@$(RM) -r $(BONUS_OBJS_DIR)
+	
+
+# Not a target:
+bonus_obj/ft_parse_map_closed.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+srcs/ft_move_player.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 21:42:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+srcs/ft_fill_textures.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:07:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/ft_exit_and_free.o: srcs/ft_exit_and_free.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_exit_and_free'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/ft_draw_wall.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/gnl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_assign_texture.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_sprites.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_wall_dimension.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/list_utilsv2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/matrix.o: srcs/matrix.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `matrix'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/ft_update.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/list_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 21:04:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bonus_obj/:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 151):
+	@mkdir -p $(BONUS_OBJS_DIR)
+	
+
+# Not a target:
+bonus_obj/ft_start_game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/gnl_utils.o: srcs/gnl_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `gnl_utils'
+#  Last modified 2023-09-27 09:55:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+objs/ft_init_images.o: srcs/ft_init_images.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `ft_init_images'
+#  Last modified 2023-09-27 09:55:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 142):
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -c $< -o $@
+	
+
+# Not a target:
+bonus_obj/checks.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bonus_obj/ft_parse_map.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_exit_and_free.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-20 15:10:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+bonus_obj/calc_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cub3d_bonus: bonus_obj/ bonus_obj/calc_utils.o bonus_obj/checks.o bonus_obj/doors_utils.o bonus_obj/ft_assign_texture.o bonus_obj/ft_draw_wall.o bonus_obj/ft_exit_and_free.o bonus_obj/ft_fill_textures.o bonus_obj/ft_import_map.o bonus_obj/ft_init_images.o bonus_obj/ft_mini_map_draw_comps.o bonus_obj/ft_mini_map.o bonus_obj/ft_move_player.o bonus_obj/ft_parse_map_closed.o bonus_obj/ft_parse_map.o bonus_obj/ft_render.o bonus_obj/ft_sprites.o bonus_obj/ft_start_game.o bonus_obj/ft_update.o bonus_obj/ft_wall_dimension.o bonus_obj/gnl_utils.o bonus_obj/gnl.o bonus_obj/list_utils.o bonus_obj/list_utilsv2.o bonus_obj/main.o bonus_obj/matrix.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 135):
+	@make -C $(LIBFT_DIR)
+	@make -C $(MINILIBX_DIR)
+	@$(CC) $(CFLAGS) -I$(LIBFT_DIR) -I$(MINILIBX_DIR) -L$(LIBFT_DIR) -lft -L$(MINILIBX_DIR) -lmlx -framework OpenGL -framework AppKit $(BONUS_OBJS) -o $(B_NAME)
+	@rm -rf $(NAME)
+	@echo "Compiled cub3d_bonus"
+	
+
+# files hash-table stats:
+# Load=78/1024=8%, Rehash=0, Collisions=6/209=3%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Dec 16 14:12:26 2023
+
+ 

@@ -1,0 +1,33 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/cembolat/Desktop/dadda3d/last_dance_vance'
+mkdir -p objs/
+ 
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/calc_utils.c -o objs/calc_utils.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/checks.c -o objs/checks.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_assign_texture.c -o objs/ft_assign_texture.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_draw_wall.c -o objs/ft_draw_wall.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_exit_and_free.c -o objs/ft_exit_and_free.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_fill_textures.c -o objs/ft_fill_textures.o
+ 
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_import_map.c -o objs/ft_import_map.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_init_images.c -o objs/ft_init_images.o
+ 
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_move_player.c -o objs/ft_move_player.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_parse_map_closed.c -o objs/ft_parse_map_closed.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_parse_map.c -o objs/ft_parse_map.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_render.c -o objs/ft_render.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_start_game.c -o objs/ft_start_game.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_update.c -o objs/ft_update.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/ft_wall_dimension.c -o objs/ft_wall_dimension.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/gnl_utils.c -o objs/gnl_utils.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/gnl.c -o objs/gnl.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/list_utils.c -o objs/list_utils.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/main.c -o objs/main.o
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -c srcs/matrix.c -o objs/matrix.o
+make -C libft
+make -C minilibx
+gcc -Wall -Wextra -Werror -g -ggdb -Ilibft -Iminilibx -Llibft -lft -Lminilibx -lmlx -framework OpenGL -framework AppKit ./objs/calc_utils.o ./objs/checks.o ./objs/ft_assign_texture.o ./objs/ft_draw_wall.o ./objs/ft_exit_and_free.o ./objs/ft_fill_textures.o ./objs/ft_import_map.o ./objs/ft_init_images.o ./objs/ft_move_player.o ./objs/ft_parse_map_closed.o ./objs/ft_parse_map.o ./objs/ft_render.o ./objs/ft_start_game.o ./objs/ft_update.o ./objs/ft_wall_dimension.o ./objs/gnl_utils.o ./objs/gnl.o ./objs/list_utils.o ./objs/main.o ./objs/matrix.o -o cub3d
+rm -rf cub3d_bonus
+echo "Compiled cub3d"
+make: Leaving directory `/Users/cembolat/Desktop/dadda3d/last_dance_vance'
+ 
